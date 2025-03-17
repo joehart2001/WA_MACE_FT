@@ -12,3 +12,4 @@ caco3-water/
 *.png
 *.json
 *.npy
+.DS_Store
