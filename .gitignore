@@ -3,3 +3,12 @@ aml/
 aseMolec/
 venv_mace/
 caco3-water/
+figures/
+caco3-water/
+*.xyz
+*.traj
+*.txt
+*.model
+*.png
+*.json
+*.npy
