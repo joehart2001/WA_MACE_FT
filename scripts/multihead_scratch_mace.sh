@@ -1,0 +1,23 @@
+mace_run_train \
+    --name="MACE_model_scratch_10_multihead" \
+    --config="multihead_config_10.yaml" \
+    --valid_fraction=0.1 \
+    --model="MACE" \
+    --hidden_irreps='128x0e + 128x1o' \
+    --energy_weight=1.0 \
+    --forces_weight=10.0 \
+    --stress_weight=1.0 \
+    --lr=0.0001 \
+    --r_max=6.0 \
+    --batch_size=2 \
+    --max_num_epochs=20 \
+    --swa \
+    --start_swa=10 \
+    --ema \
+    --ema_decay=0.9999 \
+    --amsgrad \
+    --restart_latest \
+    --enable_cueq=True \
+    --default_dtype="float64" \
+    --device=cuda
+

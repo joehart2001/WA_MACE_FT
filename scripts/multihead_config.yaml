@@ -1,0 +1,21 @@
+heads:
+    revPBE_D3:
+        train_file: "/home/jh2536/rds/hpc-work/training_val_sets/training_set_10_revPBE_D3.xyz"
+        valid_file: "/home/jh2536/rds/hpc-work/training_val_sets/validation_set_100_revPBE_D3.xyz"
+        E0s: "E0s_rev_PBE_D3.json"
+        energy_key: "rPBED3_energy"
+        forces_key: "rPBED3_forces"
+
+    revPBE0_D3:
+        train_file: "/home/jh2536/rds/hpc-work/training_val_sets/training_set_10_revPBE0_D3.xyz"
+        valid_file: "/home/jh2536/rds/hpc-work/training_val_sets/validation_set_100_revPBE0_D3.xyz"
+        E0s: "E0s_rev_PBE0_D3.json"
+        energy_key: "rPBE0D3_energy"
+        forces_key: "rPBE0D3_forces"
+
+    MP2:
+        train_file: "/home/jh2536/rds/hpc-work/training_val_sets/training_set_10_MP2.xyz"
+        valid_file: "/home/jh2536/rds/hpc-work/training_val_sets/validation_set_100_MP2.xyz"
+        E0s: "E0s_MP2.json"
+        energy_key: "MP2_energy"
+        forces_key: "MP2_forces"
