@@ -15,5 +15,5 @@
     - `model_evaulation.py`
 - example python script for running MD on the CaCO3/H2O system
     - `caco3_MD.py`
-- example slurm script used to run bash and python scripts...
+- example slurm script used to run bash and python scripts
     - `my_slurm_submit.wilkes3`
