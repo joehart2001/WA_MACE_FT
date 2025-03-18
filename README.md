@@ -1,4 +1,4 @@
-# WA_MACE_FT
+# Written Assignment: Fine-Tuning Foundation Models with MACE
 
 ### Notebooks
 - pre-processing of data
