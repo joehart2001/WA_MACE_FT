@@ -8,4 +8,4 @@
 ### CSD3 and FAST-pc scripts
 - example slurm script used to run bash and python scripts
 - example bash scripts for model training and fine-tuning
-- example python script for running MD on the \ce{CaCO3}/\ce{H2O} system
+- example python script for running MD on the CaCO$_3$/H$_2$O system
