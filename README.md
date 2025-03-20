@@ -1,9 +1,11 @@
 # Written Assignment: Fine-Tuning Foundation Models with MACE
 
 ### Notebooks
-- pre-processing of data
-- re-estimating E0s via least squares
-- analysis of model performance: loss, RMSEs, observables from MD
+- `datatset_prep_caco3.ipynb`: pre-processing of data
+- `reestimating_E0s.ipynb`: re-estimating E0s via least squares
+- analysis of model performance:
+    - `results_rev_PBE_D3.ipynb`: loss, RMSEs
+    - `analysis_observables.ipynb`: observables from MD
 
 ### CSD3 and FAST-pc scripts
 - bash scripts for training fine-tuning and evaulation of models
