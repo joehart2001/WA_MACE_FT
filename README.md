@@ -8,7 +8,7 @@
     - `analysis_observables.ipynb`: observables from MD
 
 ### CSD3 and FAST-pc scripts
-- bash scripts for training fine-tuning and evaulation of models
+- bash scripts for training, fine-tuning and evaulation of models
     - `scratch_mace.sh`
     - `FT.sh`
     - `multihead_scratch_mace.sh`
