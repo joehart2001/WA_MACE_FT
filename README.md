@@ -1,4 +1,4 @@
-# Written Assignment: Fine-Tuning Foundation Models with MACE
+# Fine-Tuning Foundation Models with MACE
 
 ### Notebooks
 - `datatset_prep_caco3.ipynb`: pre-processing of data
